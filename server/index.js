@@ -45,7 +45,7 @@ server.post("/convert", (req, res) => {
   //res.attachment(`output.${to}`
    console.log('req is', req);
   let to = 'mp4'; //change
-  let file = req.files.file;
+  let file = req.files.myFile;
   //console.log('what is',req);
   
   let fileName = `output.${to}`;
